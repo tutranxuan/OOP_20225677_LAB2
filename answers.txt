@@ -1,0 +1,6 @@
+Có vì Java cho phép constructor overloading, tức là có thể có nhiều phương thức khởi tạo trong một lớp với các danh sách tham số khác nhau. Mỗi constructor có thể khởi tạo một đối tượng với các giá trị ban đầu khác nhau dựa trên các tham số mà nó nhận. Việc sử dụng constructor overloading là một cách tiện lợi để tạo ra các phiên bản khác nhau của một đối tượng từ cùng một lớp. Thế nên hoàn toàn có thể tạo một phương thức để xây dựng DVD theo danh mục như sau:
+
+public DigitalVideoDisc(String category) {
+super();
+this.category = category;
+}
