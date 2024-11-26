@@ -1,0 +1,2 @@
+Câu hỏi: Java là ngôn ngữ lập trình "Pass by Value" hay "Pass by Reference"? 
+Trả lời: Java là ngôn ngữ lập trình "Pass by Value". Trong Java, khi truyền một tham số cho một phương thức, giá trị của tham số được sao chép và truyền vào phương thức. Điều này có nghĩa là nếu thay đổi giá trị của tham số bên trong phương thức, giá trị của biến gọi phương thức không bị ảnh hưởng.
